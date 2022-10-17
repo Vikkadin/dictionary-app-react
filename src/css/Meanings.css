@@ -1,3 +1,7 @@
 .Meanings {
     padding-top: 1%;
 }
+
+.Meanings h4 {
+    text-transform: uppercase;
+}
