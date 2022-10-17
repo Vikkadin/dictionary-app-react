@@ -1,5 +1,5 @@
 import React from 'react'
-import Phonetics from './Phonetics'
+import Phonetics from './Phonetic'
 import Meanings from './Meanings'
 import '../css/Results.css'
 
