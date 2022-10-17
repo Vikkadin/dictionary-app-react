@@ -1,5 +1,6 @@
 import React from 'react'
 import Meanings from './Meanings'
+import '../css/Results.css'
 
 function Results(props) {
     if (props.result) {
