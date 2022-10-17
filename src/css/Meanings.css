@@ -5,3 +5,7 @@
 .Meanings h4 {
     text-transform: uppercase;
 }
+
+.definition {
+    padding-top: 1em;
+}
