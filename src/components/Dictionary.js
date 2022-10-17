@@ -20,7 +20,7 @@ function Dictionary() {
                     What word do you want to look up?
                 </div>
                 <form onSubmit={search} >
-                    <input type="search" utoFocus={true} onChange={handleKeywordChange} placeholder="Enter the word..." />
+                    <input type="search" autoFocus={true} onChange={handleKeywordChange} placeholder="Enter the word..." />
                 </form>
             </section>
         </div>
