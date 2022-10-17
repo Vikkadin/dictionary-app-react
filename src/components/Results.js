@@ -7,7 +7,7 @@ export default function Results(props) {
     if (props.result) {
         return (
             <div className="Results">
-                <section>
+                <section className="papers">
                     <h2>{props.result.word}</h2>
                     {props.result.phonetics.map(function (phonetic, index) {
                         return (

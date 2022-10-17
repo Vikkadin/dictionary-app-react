@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import { BsSearch } from 'react-icons/bs'
 import Results from './Results';
 import '../css/Dictionary.css'
 
@@ -23,14 +24,18 @@ function Dictionary() {
     }
 
     return (
-        <div className="Dictionary">
+        <div className="Dictionary col-11 col-md-7 mx-auto">
             <section>
                 <div className="hint">
                     What word do you want to look up?
                 </div>
-                <form onSubmit={search} >
-                    <input type="search" autoFocus={true} onChange={handleKeywordChange} placeholder="Enter the word..." />
+                <form class="input-box" onSubmit={search}>
+                    <input type="search" autoFocus={true} onChange={handleKeywordChange} class="form-control" placeholder="Enter the word..." />
+                    <BsSearch className="icon" />
                 </form>
+                {/* <form onSubmit={search} >
+                    <input type="search" autoFocus={true} onChange={handleKeywordChange} placeholder="Enter the word..." />
+                </form> */}
             </section>
             <section>
                 <Results result={response} />
@@ -40,3 +45,4 @@ function Dictionary() {
 }
 
 export default Dictionary
+
