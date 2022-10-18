@@ -26,16 +26,14 @@ function Dictionary() {
     return (
         <div className="Dictionary col-11 col-md-7 mx-auto">
             <section>
-                <div className="hint">
-                    What word do you want to look up?
-                </div>
-                <form class="input-box" onSubmit={search}>
+                <h2>What word do you want to look up?</h2>
+                <form className="input-box" onSubmit={search}>
+                    <div className="hint">
+                        Suggested words: sunset, love, yoga, road...
+                    </div>
                     <input type="search" autoFocus={true} onChange={handleKeywordChange} class="form-control" placeholder="Enter the word..." />
                     <BsSearch className="icon" />
                 </form>
-                {/* <form onSubmit={search} >
-                    <input type="search" autoFocus={true} onChange={handleKeywordChange} placeholder="Enter the word..." />
-                </form> */}
             </section>
             <section>
                 <Results result={response} />

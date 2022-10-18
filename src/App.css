@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 * {
     margin: 0;
@@ -11,7 +12,13 @@ li {
 }
 
 a {
+    text-decoration: none;
     color: #fff;
+}
+
+a:hover {
+    color: #cb9b51;
+    text-decoration: underline;
 }
 
 body {
@@ -20,6 +27,8 @@ body {
     background-attachment: fixed;
     background-position: top center;
     background-size: cover;
+    color: #291a09;
+    ;
 }
 
 header {
@@ -32,21 +41,16 @@ header {
 h1 {
     padding-top: 2%;
     font-size: 64px;
-    background-image: linear-gradient(to right,
-            #462523 0,
-            #cb9b51 22%,
-            #f6e27a 45%,
-            #f6f2c0 50%,
-            #f6e27a 55%,
-            #cb9b51 78%,
-            #462523 100%);
-    color: transparent;
-    background-clip: text;
+    color: #cb9b51;
     letter-spacing: 5px;
-    text-shadow: 2px 2px 5px rgb(34, 31, 31);
+    text-shadow: 2px 3px 5px rgb(34, 31, 31);
 }
 
 footer {
     color: #ced4da;
     padding-bottom: 3%;
+}
+
+.App {
+    max-width: 1024px;
 }

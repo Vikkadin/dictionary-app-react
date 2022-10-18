@@ -3,9 +3,15 @@
 }
 
 .Meanings h4 {
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-family: 'Sriracha', cursive;
 }
 
 .definition {
     padding-top: 1em;
+}
+
+.Meanings span {
+    font-weight: bold;
+    font-family: 'Sriracha', cursive;
 }

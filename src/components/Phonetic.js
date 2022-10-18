@@ -6,7 +6,7 @@ export default function Phonetic(props) {
     if (props.phonetic.audio) {
         return (
             <div className="Phonetic">
-                <p><em>{props.phonetic.text}</em></p>
+                <div><em>{props.phonetic.text}</em></div>
                 <ReactAudioPlayer
                     src={props.phonetic.audio}
                     controls
@@ -18,7 +18,7 @@ export default function Phonetic(props) {
     } else {
         return (
             <div className="Phonetic">
-                <p><em>{props.phonetic.text}</em></p>
+                <div><em>{props.phonetic.text}</em></div>
             </div>
         )
     }
