@@ -28,7 +28,6 @@ body {
     background-position: top center;
     background-size: cover;
     color: #291a09;
-    ;
 }
 
 header {
@@ -48,7 +47,7 @@ h1 {
 
 footer {
     color: #ced4da;
-    padding-bottom: 3%;
+    padding: 5% 3%;
 }
 
 .App {
