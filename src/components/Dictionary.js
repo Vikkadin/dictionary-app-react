@@ -26,7 +26,7 @@ function Dictionary() {
         });
 
         const pexelsApiKey = "563492ad6f917000010000010f12befde61a4f03997db0b07a1b52fe";
-        let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
+        let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=8`;
         let headers = { "Authorization": `Bearer ${pexelsApiKey}` };
         axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
     }

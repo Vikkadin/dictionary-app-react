@@ -9,7 +9,7 @@ function App() {
         <Dictionary />
       </main>
       <footer className='text-center'>
-        Coded by Vika Kelii and is <a href="https://github.com/Vikkadin/dictionary-app-react">open-sourced on GitHub</a>
+        Coded by <a href="https://www.linkedin.com/in/vika-kelii/">Vika Kelii</a> and is <a href="https://github.com/Vikkadin/dictionary-app-react">open-sourced on GitHub</a>
       </footer>
     </div>
   );
